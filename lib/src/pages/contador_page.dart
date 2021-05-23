@@ -12,7 +12,7 @@ class _ContadorPageState extends State<ContadorPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Bar'),
+          title: Text('Craft Beer', style: _estiloTexto),
           centerTitle: true,
           elevation: 7.5,
         ),
